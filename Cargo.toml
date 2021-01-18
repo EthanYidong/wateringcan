@@ -1,0 +1,14 @@
+[package]
+name = "wateringcan"
+version = "0.1.0"
+repository = "https://github.com/EthanYidong/wateringcan"
+authors = ["EthanYidong <ethanyidong@gmail.com>"]
+description = "An WASM animation library written in rust"
+categories = ["wasm", "rust", "animation"]
+license = "MIT"
+readme = "./README.md"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
