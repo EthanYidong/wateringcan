@@ -1,10 +1,10 @@
 [package]
 name = "wateringcan"
-version = "0.1.0"
+version = "0.1.1"
 repository = "https://github.com/EthanYidong/wateringcan"
 authors = ["EthanYidong <ethanyidong@gmail.com>"]
-description = "An WASM animation library written in rust"
-categories = ["wasm", "rust", "animation"]
+description = "An animation library for seed"
+categories = ["wasm"]
 license = "MIT"
 readme = "./README.md"
 edition = "2018"
@@ -12,3 +12,4 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+seed = "0.8"
